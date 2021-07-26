@@ -6,6 +6,7 @@ import db from '../config';
 export default function Registration({navigation}) {
 
   const [user, setUser] = useState({
+    //store data in Firebase
       userDetails: [{name:"", mail:"", mob:"", add:""}],
       username: '',
       email: '',
